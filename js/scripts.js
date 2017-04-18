@@ -15,8 +15,8 @@ Telefon.prototype = {
 	}
 };
 
-var iPhone6S = new Telefon("Apple", 2250, "srebrny", "2GB", 740 );
-var GalaxyS6 = new Telefon("Samsung", 1797, "czarny", "4GB", "brak danych" );
+var iPhone6S = new Telefon("Apple", 2250, "srebrny", "2GB", 740);
+var GalaxyS6 = new Telefon("Samsung", 1797, "czarny", "4GB", "brak danych");
 var One  = new Telefon("OnePlus", 1299, "czerwony", "3GB", "brak danych");
 iPhone6S.printInfo();
 GalaxyS6.printInfo();
